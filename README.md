@@ -32,12 +32,12 @@ L'elenco completo (S1-S15, T1-T5) è in [`scrittura-per-llm/SKILL.md`](scrittura
 
 **Claude Code** (tutti i progetti):
 ```bash
-git clone <url-di-questo-repo> /tmp/skill-llm
+git clone https://github.com/espo88me-sketch/skill-scrittura-per-llm.git /tmp/skill-llm
 cp -r /tmp/skill-llm/scrittura-per-llm ~/.claude/skills/
 ```
 Solo per un progetto: copia la cartella in `.claude/skills/` del progetto.
 
-**Claude.ai**: comprimi la cartella `scrittura-per-llm` in uno zip e caricala da
+**Claude.ai**: scarica `scrittura-per-llm-v1.0.0.zip` dalla pagina Releases e caricalo da
 Impostazioni → Funzionalità → Skill.
 
 La revisione di pagine (modalità 2) usa `analizza_pagina.py`, che richiede Python 3.8+ e
